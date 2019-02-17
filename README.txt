@@ -46,15 +46,15 @@ NEWFILEUID:NONE
      <ACCTTYPE>CHECKING
     </BANKACCTFROM>
     <BANKTRANLIST>
-     <DTSTART>Date Start (first transaction)
-     <DTEND>Date End (last transaction) 
+     <DTSTART>Date Start (first transaction) (YYYYMMDD)
+     <DTEND>Date End (last transaction) (YYYYMMDD)
        
 3.) Copy this to the end of your QBO File: 
 
 </BANKTRANLIST>
     <LEDGERBAL>
      <BALAMT>0
-     <DTASOF>Date End (last transaction) 
+     <DTASOF>Date End (last transaction) (YYYYMMDD)
     </LEDGERBAL>
    </STMTRS>
   </STMTTRNRS>

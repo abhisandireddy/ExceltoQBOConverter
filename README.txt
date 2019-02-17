@@ -8,7 +8,7 @@ QBO files are used in Quickbooks to import bank data and help reconcile bank tra
 To use: 
 1.) Take the date column in your spreadsheet and use the following formula in conversion: =TEXT(Cell, "YYYYMMDD") and convert all dates into the format listed. 
 2.) Generate your FIT ID (which follows the following format: YYYYMMDD##) and generate it for each row in your spreadsheet 
-2.) Copy this to the beginning of your QBO file (you can use your IDE or editor to open it up - like Visual Studio Code): 
+2.) Copy this to the beginning of your QBO file (you can use your IDE or editor to open it up - like Visual Studio Code) and add your information to the fields: 
 OFXHEADER:100
 DATA:OFXSGML
 VERSION:102

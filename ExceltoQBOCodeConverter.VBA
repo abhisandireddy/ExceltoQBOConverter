@@ -12,6 +12,8 @@ Sub ExceltoQBOConvert()
     Dim amount As String
     Dim TranType As String
     Dim fitID As String
+Dim Name as String
+Dim Memo as String 
     For i = 4 To LastRow
     
     TranType = "<TRNTYPE>" & (Range("E" & i).Value)
